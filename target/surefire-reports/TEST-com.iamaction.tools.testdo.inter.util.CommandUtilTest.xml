@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="com.iamaction.tools.testdo.inter.util.CommandUtilTest" time="0.231" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\Promgram Files\java\jre\bin"/>
+    <property name="java.vm.version" value="25.65-b01"/>
+    <property name="user.country.format" value="CN"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="com.iamaction.tools.testdo.inter.util.CommandUtilTest#testCreateCommnad"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="F:\git-workspace\testdo"/>
+    <property name="java.runtime.version" value="1.8.0_65-b17"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\Promgram Files\java\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\huuuuxin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="maven.ext.class.path" value="E:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="E:\Program Files\NetBeans 8.1\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\Promgram Files\java\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\Promgram Files\maven\apache-maven-3.3.9\bin;E:\Vim\vim74;%JAVA_JRE%/bin;E:\Promgram Files\java/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Google\Hangouts Plugin for Microsoft Outlook\;E:\Program Files\Git\cmd;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\huuuuxin"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="huuuuxin"/>
+    <property name="java.class.path" value="E:\Program Files\NetBeans 8.1\java\maven\boot\plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\Promgram Files\java\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.iamaction.tools.testdo.inter.util.CommandUtilTest#testCreateCommnad -Dmaven.ext.class.path=E:\Program Files\NetBeans 8.1\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 surefire:test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="user.language.format" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_65"/>
+    <property name="java.ext.dirs" value="E:\Promgram Files\java\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\Promgram Files\java\jre\lib\resources.jar;E:\Promgram Files\java\jre\lib\rt.jar;E:\Promgram Files\java\jre\lib\sunrsasign.jar;E:\Promgram Files\java\jre\lib\jsse.jar;E:\Promgram Files\java\jre\lib\jce.jar;E:\Promgram Files\java\jre\lib\charsets.jar;E:\Promgram Files\java\jre\lib\jfr.jar;E:\Promgram Files\java\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\Program Files\NetBeans 8.1\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.iamaction.tools.testdo.inter.util.CommandUtilTest" name="testCreateCommnad" time="0.137">
+    <failure message="The test case is a prototype." type="java.lang.AssertionError">java.lang.AssertionError: The test case is a prototype.
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.iamaction.tools.testdo.inter.util.CommandUtilTest.testCreateCommnad(CommandUtilTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:45)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+</failure>
+    <system-out>createCommnad
+ num1 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_AbsentSubscriber | tee TC_mapv2_app_sendRoutingInfoForSM_AbsentSubscriber.log
+ num1 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_AbsentSubscriber.cap
+ num1 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_AbsentSubscriber.traffic
+
+
+ num1 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_AbsentSubscriber.cap
+ num1 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_AbsentSubscriber.traffic
+
+
+---------------------------------------------------------------------------
+ num2 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_CallBarred | tee TC_mapv2_app_sendRoutingInfoForSM_CallBarred.log
+ num2 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_CallBarred.cap
+ num2 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_CallBarred.traffic
+
+
+ num2 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_CallBarred.cap
+ num2 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_CallBarred.traffic
+
+
+---------------------------------------------------------------------------
+ num3 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_DataMissing | tee TC_mapv2_app_sendRoutingInfoForSM_DataMissing.log
+ num3 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_DataMissing.cap
+ num3 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_DataMissing.traffic
+
+
+ num3 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_DataMissing.cap
+ num3 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_DataMissing.traffic
+
+
+---------------------------------------------------------------------------
+ num4 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_FacilityNotSupported | tee TC_mapv2_app_sendRoutingInfoForSM_FacilityNotSupported.log
+ num4 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num4 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+ num4 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num4 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+---------------------------------------------------------------------------
+ num5 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_SystemFailure | tee TC_mapv2_app_sendRoutingInfoForSM_SystemFailure.log
+ num5 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_SystemFailure.cap
+ num5 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+ num5 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_SystemFailure.cap
+ num5 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+---------------------------------------------------------------------------
+ num6 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_TeleserviceNotProvisioned | tee TC_mapv2_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.log
+ num6 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num6 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+ num6 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num6 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+---------------------------------------------------------------------------
+ num7 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_UnexpectedDataValue | tee TC_mapv2_app_sendRoutingInfoForSM_UnexpectedDataValue.log
+ num7 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num7 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+ num7 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num7 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+---------------------------------------------------------------------------
+ num8 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_UnknownSubscriber | tee TC_mapv2_app_sendRoutingInfoForSM_UnknownSubscriber.log
+ num8 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num8 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+ num8 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num8 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+---------------------------------------------------------------------------
+ num9 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_abort | tee TC_mapv2_app_sendRoutingInfoForSM_abort.log
+ num9 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_abort.cap
+ num9 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_abort.traffic
+
+
+ num9 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_abort.cap
+ num9 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_abort.traffic
+
+
+---------------------------------------------------------------------------
+ num10 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_sendRoutingInfoForSM_result | tee TC_mapv2_app_sendRoutingInfoForSM_result.log
+ num10 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_result.cap
+ num10 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_result.traffic
+
+
+ num10 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_result.cap
+ num10 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_sendRoutingInfoForSM_result.traffic
+
+
+---------------------------------------------------------------------------
+ num11 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_AbsentSubscriberSM | tee TC_mapv3_app_sendRoutingInfoForSM_AbsentSubscriberSM.log
+ num11 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_AbsentSubscriberSM.cap
+ num11 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_AbsentSubscriberSM.traffic
+
+
+ num11 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_AbsentSubscriberSM.cap
+ num11 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_AbsentSubscriberSM.traffic
+
+
+---------------------------------------------------------------------------
+ num12 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_CallBarred | tee TC_mapv3_app_sendRoutingInfoForSM_CallBarred.log
+ num12 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_CallBarred.cap
+ num12 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_CallBarred.traffic
+
+
+ num12 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_CallBarred.cap
+ num12 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_CallBarred.traffic
+
+
+---------------------------------------------------------------------------
+ num13 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_DataMissing | tee TC_mapv3_app_sendRoutingInfoForSM_DataMissing.log
+ num13 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_DataMissing.cap
+ num13 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_DataMissing.traffic
+
+
+ num13 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_DataMissing.cap
+ num13 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_DataMissing.traffic
+
+
+---------------------------------------------------------------------------
+ num14 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_FacilityNotSupported | tee TC_mapv3_app_sendRoutingInfoForSM_FacilityNotSupported.log
+ num14 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num14 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+ num14 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num14 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+---------------------------------------------------------------------------
+ num15 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_SystemFailure | tee TC_mapv3_app_sendRoutingInfoForSM_SystemFailure.log
+ num15 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_SystemFailure.cap
+ num15 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+ num15 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_SystemFailure.cap
+ num15 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+---------------------------------------------------------------------------
+ num16 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_TeleserviceNotProvisioned | tee TC_mapv3_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.log
+ num16 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num16 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+ num16 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num16 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+---------------------------------------------------------------------------
+ num17 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_UnexpectedDataValue | tee TC_mapv3_app_sendRoutingInfoForSM_UnexpectedDataValue.log
+ num17 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num17 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+ num17 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num17 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+---------------------------------------------------------------------------
+ num18 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_UnknownSubscriber | tee TC_mapv3_app_sendRoutingInfoForSM_UnknownSubscriber.log
+ num18 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num18 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+ num18 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num18 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+---------------------------------------------------------------------------
+ num19 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_abort | tee TC_mapv3_app_sendRoutingInfoForSM_abort.log
+ num19 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_abort.cap
+ num19 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_abort.traffic
+
+
+ num19 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_abort.cap
+ num19 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_abort.traffic
+
+
+---------------------------------------------------------------------------
+ num20 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_sendRoutingInfoForSM_result | tee TC_mapv3_app_sendRoutingInfoForSM_result.log
+ num20 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_result.cap
+ num20 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_result.traffic
+
+
+ num20 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_result.cap
+ num20 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_sendRoutingInfoForSM_result.traffic
+
+
+---------------------------------------------------------------------------
+ num21 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriberSM | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriberSM.log
+ num21 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriberSM.cap
+ num21 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriberSM.traffic
+
+
+ num21 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriberSM.cap
+ num21 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriberSM.traffic
+
+
+---------------------------------------------------------------------------
+ num22 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_CallBarred | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.log
+ num22 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.cap
+ num22 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.traffic
+
+
+ num22 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.cap
+ num22 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.traffic
+
+
+---------------------------------------------------------------------------
+ num23 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_DataMissing | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.log
+ num23 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.cap
+ num23 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.traffic
+
+
+ num23 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.cap
+ num23 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.traffic
+
+
+---------------------------------------------------------------------------
+ num24 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.log
+ num24 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num24 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+ num24 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num24 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+---------------------------------------------------------------------------
+ num25 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.log
+ num25 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.cap
+ num25 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+ num25 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.cap
+ num25 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+---------------------------------------------------------------------------
+ num26 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.log
+ num26 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num26 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+ num26 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num26 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+---------------------------------------------------------------------------
+ num27 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.log
+ num27 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num27 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+ num27 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num27 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+---------------------------------------------------------------------------
+ num28 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.log
+ num28 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num28 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+ num28 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num28 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+---------------------------------------------------------------------------
+ num29 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_abort | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_abort.log
+ num29 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_abort.cap
+ num29 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_abort.traffic
+
+
+ num29 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_abort.cap
+ num29 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_abort.traffic
+
+
+---------------------------------------------------------------------------
+ num30 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_result | tee TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_result.log
+ num30 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_result.cap
+ num30 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_result.traffic
+
+
+ num30 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_result.cap
+ num30 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv3_app_WithAddrReq_sendRoutingInfoForSM_result.traffic
+
+
+---------------------------------------------------------------------------
+ num31 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriber | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriber.log
+ num31 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriber.cap
+ num31 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriber.traffic
+
+
+ num31 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriber.cap
+ num31 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_AbsentSubscriber.traffic
+
+
+---------------------------------------------------------------------------
+ num32 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_CallBarred | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.log
+ num32 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.cap
+ num32 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.traffic
+
+
+ num32 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.cap
+ num32 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_CallBarred.traffic
+
+
+---------------------------------------------------------------------------
+ num33 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_DataMissing | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.log
+ num33 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.cap
+ num33 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.traffic
+
+
+ num33 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.cap
+ num33 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_DataMissing.traffic
+
+
+---------------------------------------------------------------------------
+ num34 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.log
+ num34 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num34 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+ num34 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.cap
+ num34 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_FacilityNotSupported.traffic
+
+
+---------------------------------------------------------------------------
+ num35 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.log
+ num35 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.cap
+ num35 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+ num35 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.cap
+ num35 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_SystemFailure.traffic
+
+
+---------------------------------------------------------------------------
+ num36 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.log
+ num36 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num36 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+ num36 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.cap
+ num36 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_TeleserviceNotProvisioned.traffic
+
+
+---------------------------------------------------------------------------
+ num37 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.log
+ num37 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num37 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+ num37 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.cap
+ num37 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnexpectedDataValue.traffic
+
+
+---------------------------------------------------------------------------
+ num38 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.log
+ num38 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num38 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+ num38 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.cap
+ num38 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_UnknownSubscriber.traffic
+
+
+---------------------------------------------------------------------------
+ num39 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_abort | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_abort.log
+ num39 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_abort.cap
+ num39 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_abort.traffic
+
+
+ num39 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_abort.cap
+ num39 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_abort.traffic
+
+
+---------------------------------------------------------------------------
+ num40 mvn comand= mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.26 -DMD_IP=10.175.162.169 -Dtest=TestCasesMapSRIForSM_APP#TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_result | tee TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_result.log
+ num40 payload-1 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_result.cap
+ num40 payload-1 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-1/logs/traffic-1.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_result.traffic
+
+
+ num40 payload-2 tcpdump command =  tcpdump -i bond0 -w ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_result.cap
+ num40 payload-2 traffic command =   tail -f /var/lib/occas/domains/domain1/servers/traffic-2/logs/traffic-2.log  | tee ~/test-logs/TC_mapv2_app_WithAddrReq_sendRoutingInfoForSM_result.traffic
+
+
+---------------------------------------------------------------------------
+</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+    <RUN_ENV HOST_IP="10.175.162.169" OS_TYPE="linux" INTERACTIVE="yes" 
+             LOG_TYPE="TG" ACTIVE="yes">
+        <PROJECT PROJECT_NAME="mapv1_map_colocation_test" 
+             RUN_PATH="/proj/SIG/home/xhuxing/git-repo/ss7-example/mapv1_map_colocation_test/md" 
+                CASE_PATH="F:\git-workspace\testdo\src\main\resources\"  CASE_FILE_NAME="caseMethod.txt">
+            <COMMAND  COMMAND_VALUE="mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.43 -DMD_IP=10.175.162.169 -Dtest="  
+                      LOG_PATH="F:\git-workspace\testdo\src\main\resources\runLogs" 
+                      FULL_CMD="yes" HTTP_PORT="38080" APP_IP="10.175.163.43" MD_IP="10.175.162.169" TEST_CLASS="TestCasesMap">
+            </COMMAND>
+        </PROJECT>
+    </RUN_ENV>
+    <!--
+    <RUN_ENV HOST_IP="10.175.162.169" OS_TYPE="linux" INTERACTIVE="yes" 
+             LOG_TYPE="ECE" ACTIVE="no">
+        <PROJECT PROJECT_NAME="mapv1_map_colocation_test" 
+             RUN_PATH="/proj/SIG/home/xhuxing/git-repo/ss7-example/mapv1_map_colocation_test/md" 
+                CASE_PATH="F:\git-workspace\testdo\src\main\resources\"  CASE_FILE_NAME="caseMethod.txt">
+            <COMMAND  COMMAND_VALUE="mvn clean install -Poccas,test -Djava.security.policy=src/test/resources/client.policy -DHTTP_PORT=38080 -DAPP_IP=10.175.163.43 -DMD_IP=10.175.162.169 -Dtest="  
+                      LOG_PATH="F:\git-workspace\testdo\src\main\resources\runLogs" 
+                      FULL_CMD="yes" HTTP_PORT="38080" APP_IP="10.175.163.43" MD_IP="10.175.162.169" TEST_CLASS="TestCasesMapSRIForSM_APP">
+            </COMMAND>
+        </PROJECT>
+    </RUN_ENV>
+    -->
+</ROOT>

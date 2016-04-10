@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+    <OS_TYPE></OS_TYPE>
+    <INTERACTIVE></INTERACTIVE>
+    <PROJECT>
+        <PROJECT_NAME></PROJECT_NAME>
+        <RUN_PATH></RUN_PATH>
+        <CASE_PATH></CASE_PATH>
+        <CASE_FILE_NAME></CASE_FILE_NAME>
+        <LOG_PATH></LOG_PATH>
+        <COMMAND></COMMAND>
+        <FULL_CMD></FULL_CMD>
+        <HTTP_PORT></HTTP_PORT>
+        <APP_IP></APP_IP>
+        <MD_IP></MD_IP>
+        <TEST_CLASS></TEST_CLASS>
+    </PROJECT>
+</ROOT>

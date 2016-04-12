@@ -143,20 +143,43 @@ public class CommandUtil {
     private String createTCPDumpCommand(int payloadNumber, String routerInterfaceName,
             String logFolderFullPath, String testCase, String newLogsPath) 
                     throws PayloadNumNotSupportException{
+        //if router interface name is null,capture all the router interfaces.
+        if(null == routerInterfaceName || "".equals(routerInterfaceName))
+        {
+            routerInterfaceName = "any";
+        }
         StringBuffer tcpDumpCmd = new StringBuffer();
         if(payloadNumber == 1){
-             tcpDumpCmd.append(" tcpdump -i ").append(routerInterfaceName)
-                     .append(" -w ").append(newLogsPath).append("/")
-                     .append(testCase).append(".cap");
+            tcpDumpCmd.append(" tcpdump -i ").append(routerInterfaceName)
+                 .append(" -w ").append(newLogsPath).append("/")
+                 .append(testCase).append(".cap");
         }else if(payloadNumber == 2){
              tcpDumpCmd.append(" tcpdump -i ").append(routerInterfaceName)
                      .append(" -w ").append(newLogsPath).append("/")
                      .append(testCase).append(".cap");
         }else {
             throw 
-                 new PayloadNumNotSupportException("PayLoad number is not support! payload number ="+payloadNumber);
+                new PayloadNumNotSupportException("PayLoad number is not support! payload number ="+payloadNumber);
         }
         return tcpDumpCmd.toString();
+    }
+    
+    ///opt/sign/log/ss7trace.log
+    private String createSS7TraceCommnad(int payloadNumber, 
+            String testCase, String newLogsPath)
+                throws PayloadNumNotSupportException{
+         StringBuffer ss7TraceCmd = new StringBuffer();
+        if(payloadNumber == 1){
+             ss7TraceCmd.append("   tail -f  ").append("opt/sign/log/ss7trace.log")
+                     .append(" >").append(newLogsPath).append("/").append(testCase).append("_ss7trace.log");
+        }else if(payloadNumber == 2){
+             ss7TraceCmd.append("   tail -f  ").append("opt/sign/log/ss7trace.log")
+                     .append(" >").append(newLogsPath).append("/").append(testCase).append("_ss7trace.log");
+        }else {
+            throw 
+                 new PayloadNumNotSupportException("PayLoad number is not support! payload number ="+payloadNumber);
+        }
+        return ss7TraceCmd.toString();
     }
     
     /**
@@ -173,7 +196,7 @@ public class CommandUtil {
             //add maven command
             commandList.add(" num"+(i)+" mvn comand="+createMavenCommand(appIp,mdIp,testClass,testCase));
             
-            //add tcpdump command and traffic command by payload
+            //add tcpdump command and traffic command by payload and ss7 stack trace command
             for(PayloadType pl:payloadTypeList)
             {
                 try {
@@ -183,13 +206,23 @@ public class CommandUtil {
                     commandList.add(" num"+(i)+" payload-"+pl.getNumber()
                         +" traffic command = "
                         +createTrafficLogCommand(pl.getNumber(), testCase,pl.getLogFolderFullPath(),newLogsPath));
+                    //add ss7 stack trace command
+                    commandList.add(" num"+(i)+" payload-"+pl.getNumber()
+                       +" createSS7Trace command = "
+                       +createSS7TraceCommnad(pl.getNumber(), testCase,newLogsPath));
                     commandList.add("\r\n");
                 } catch (PayloadNumNotSupportException ex) {
                     Logger.getLogger(CommandUtil.class.getName()).log(Level.SEVERE, null, ex);
                     StringUtil.print(ex.toString());
                     System.exit(-1);
                 }
+                
+          
             }
+
+//                    createSS7TraceCommnad(int payloadNumber, 
+//                       String testCase, String newLogsPath)
+            
             i++;
            commandList.add("---------------------------------------------------------------------------");
         }

@@ -19,38 +19,19 @@ import static org.junit.Assert.*;
  * @author huuuuxin
  */
 public class ConfigServiceImplTest {
-    
-    public ConfigServiceImplTest() {
-    }
-    
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
 
     /**
      * Test of readConfig method, of class ConfigServiceImpl.
      */
-    @Test
-    public void testReadConfig() {
-        System.out.println("readConfig");
-        ConfigServiceImpl instance = new ConfigServiceImpl();
-        TestInfo expResult = null;
-        TestInfo result = instance.readConfig();
-        //assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
-    }
+//    @Test
+//    public void testReadConfig() {
+//        System.out.println("readConfig");
+//        ConfigServiceImpl instance = new ConfigServiceImpl();
+//        TestInfo expResult = null;
+//        TestInfo result = instance.readConfig();
+//        //assertEquals(expResult, result);
+//        // TODO review the generated test code and remove the default call to fail.
+//        //fail("The test case is a prototype.");
+//    }
     
 }

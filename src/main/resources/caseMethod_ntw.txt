@@ -1,0 +1,2 @@
+TC_mapv2_ntw_sendRoutingInfoForSM_result
+TC_mapv3_ntw_sendRoutingInfoForSM_result
